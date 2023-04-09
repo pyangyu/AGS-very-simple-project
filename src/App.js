@@ -113,7 +113,19 @@ class App extends Component {
     render() {
       return (
         <div>
-            <h1>我也想你</h1>
+            <h1>
+              GeeksforGeeks
+            </h1>
+            <h3>
+              File Upload using React!
+            </h3>
+            <div>
+                <input type="file" onChange={this.onFileChange} />
+                <button onClick={this.onFileUpload}>
+                  Upload!
+                </button>
+            </div>
+          {this.fileData()}
         </div>
       );
     }
