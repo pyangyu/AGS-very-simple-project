@@ -115,12 +115,17 @@ class App extends Component {
       return (
         <div>
             <h1>
+<<<<<<< HEAD
               accelerated global solution
+=======
+              GeeksforGeeks
+>>>>>>> 18372e0c3be7142122608a39b84a6cd7ae5ac830
             </h1>
             <h3>
               File Upload using React!
             </h3>
             <div>
+<<<<<<< HEAD
                 <input type="file" onChange={this.onFileChange2} />
                 <button onClick={this.onFileUpload2}>
                   Upload the second!
@@ -130,6 +135,11 @@ class App extends Component {
                 <input type="file" onChange={this.onFileChange} />
                 <button onClick={this.onFileUpload}>
                   Upload the first!
+=======
+                <input type="file" onChange={this.onFileChange} />
+                <button onClick={this.onFileUpload}>
+                  Upload!
+>>>>>>> 18372e0c3be7142122608a39b84a6cd7ae5ac830
                 </button>
             </div>
           {this.fileData()}
