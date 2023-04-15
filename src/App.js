@@ -74,6 +74,7 @@ class App extends Component {
           
         return (
           <React.Fragment>
+            <div><h1>SpeedX Helping Website</h1></div>
           <div>
             <h2>File Details:</h2>
             <p>File Name: {this.state.selectedFile.name}</p>
@@ -113,7 +114,25 @@ class App extends Component {
     render() {
       return (
         <div>
-            <h1>我也想你</h1>
+            <h1>
+              accelerated global solution
+            </h1>
+            <h3>
+              File Upload using React!
+            </h3>
+            <div>
+                <input type="file" onChange={this.onFileChange2} />
+                <button onClick={this.onFileUpload2}>
+                  Upload the second!
+                </button>
+            </div>
+            <div>
+                <input type="file" onChange={this.onFileChange} />
+                <button onClick={this.onFileUpload}>
+                  Upload the first!
+                </button>
+            </div>
+          {this.fileData()}
         </div>
       );
     }
