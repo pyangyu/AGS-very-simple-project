@@ -115,7 +115,7 @@ class App extends Component {
       return (
         <div>
             <h1>
-              accelerated global solution
+              SpeedX
             </h1>
             <h3>
               File Upload using React!
