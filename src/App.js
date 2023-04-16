@@ -1,6 +1,7 @@
 import axios from 'axios';
   
 import React,{Component} from 'react';
+import Clock from './components/clock';
   
 class App extends Component {
    
@@ -114,6 +115,7 @@ class App extends Component {
     render() {
       return (
         <div>
+            <Clock />
             <h1>
               SpeedX
             </h1>
